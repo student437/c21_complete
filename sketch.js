@@ -19,15 +19,7 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
 
-  btn1 = createImg('right.png');
-  btn1.position(220,30);
-  btn1.size(50,50);
-  btn1.mouseClicked(hForce);
-  
-  btn2 = createImg('up.png');
-  btn2.position(20,30);
-  btn2.size(50,50);
-  btn2.mouseClicked(vForce);
+ 
   
   ground =new Ground(200,390,400,20);
   right = new Ground(390,200,20,400);
